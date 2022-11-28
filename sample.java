@@ -14,5 +14,6 @@ public class sample
     public static void main(String[] args)
     {
         sample s = new sample("Jim","Harper");
+        System.out.println(s.empDepartment);
     }
 }
