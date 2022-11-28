@@ -9,6 +9,8 @@ public class sample
     sample(String name, String Department)
     {
         this.empId = counter;
+        this.empName = name;
+        this.empDepartment = Department; 
         counter++;
     }
     public static void main(String[] args)
